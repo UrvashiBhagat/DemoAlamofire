@@ -53,7 +53,6 @@
 		FAB6D7EC1E925643007C869D /* DemoAlamofireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAlamofireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB6D7F01E925643007C869D /* DemoAlamofireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAlamofireUITests.swift; sourceTree = "<group>"; };
 		FAB6D7F21E925644007C869D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAB6D7FE1E926A56007C869D /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		FAB6D7FF1E927345007C869D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/DemoAlamofire-fhbuonvtczcmrefxboqbctegcvon/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		FAB6D8011E927609007C869D /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/DemoAlamofire-fhbuonvtczcmrefxboqbctegcvon/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,7 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				FAB6D7D01E925643007C869D /* AppDelegate.swift */,
-				FAB6D7FE1E926A56007C869D /* BridgingHeader.h */,
 				FAB6D7D21E925643007C869D /* ViewController.swift */,
 				FAB6D7D41E925643007C869D /* Main.storyboard */,
 				FAB6D7D71E925643007C869D /* Assets.xcassets */,
@@ -500,7 +498,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DemoAlamofire.DemoAlamofire;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/DemoAlamofire/BridgingHeader.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -514,7 +512,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DemoAlamofire.DemoAlamofire;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/DemoAlamofire/BridgingHeader.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
